@@ -3,6 +3,7 @@ from data.models.ingredient import Ingredient
 
 
 def import_ingredients(ingredients_filepath: str):
+    # Available at https://github.com/MTES-MCT/ecobalyse/blob/cb5e131f15a0d00178759ebe945398425a995bc8/public/data/food/ingredients.json
     print(f"Importing ecobalyse ingredients from {ingredients_filepath}")
 
     with open(ingredients_filepath) as f:
