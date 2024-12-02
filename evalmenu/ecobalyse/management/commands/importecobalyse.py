@@ -1,5 +1,7 @@
 from django.core.management.base import BaseCommand
 
+from ecobalyse import import_data
+
 
 class Command(BaseCommand):
     help = "Import Ecobalyse ingredients"
@@ -9,4 +11,5 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         ingredients_file = options["ingredients_file"]
-        self.stdout.write(self.style.NOTICE(f"Importing file {ingredients_file}"))
+
+        import_data.import_ingredients(ingredients_file)
