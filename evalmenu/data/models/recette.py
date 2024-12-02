@@ -3,7 +3,7 @@ from data.models.ingredient import Ingredient
 
 class Recette(models.Model):
 
-    class NutriScore(models.TextChoices):
+    class Nutriscore(models.TextChoices):
         A = "A",
         B = "B",
         C = "C",
