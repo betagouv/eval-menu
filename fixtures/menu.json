@@ -1,0 +1,72 @@
+{
+  "name": "Méditerranéen",
+  "recipes": [
+    {
+      "name": "Salade d'aubergines grillées et mozzarella",
+      "ingredients": [
+        {
+          "mass": 150,
+          "name": "Aubergines"
+        },
+        {
+          "mass": 50,
+          "name": "Mozzarella"
+        },
+        {
+          "mass": 10,
+          "name": "Huile d’olive"
+        },
+        {
+          "mass": 1,
+          "name": "Sel et poivre"
+        }
+      ],
+      "type": "starter",
+      "ecs": 1234.5,
+      "nutriscore": "c",
+      "bio": false
+    },
+    {
+      "name": "Colin grillé, légumes vapeur et riz basmati",
+      "ingredients": [
+        {
+          "mass": 150,
+          "name": "Colin"
+        },
+        {
+          "mass": 200,
+          "name": "Mélange de légumes"
+        },
+        {
+          "mass": 80,
+          "name": "Riz basmati"
+        }
+      ],
+      "type": "main",
+      "ecs": 1111,
+      "nutriscore": "b",
+      "bio": false
+    },
+    {
+      "name": "Salade de fruits frais",
+      "ingredients": [
+        {
+          "mass": 50,
+          "name": "Orange bio"
+        },
+        {
+          "mass": 50,
+          "name": "Kiwi bio"
+        },
+        {
+          "mass": 50,
+          "name": "Abricot bio"
+        }
+      ],
+      "type": "dessert",
+      "ecs": 13,
+      "nutriscore": "a",
+      "bio": true
+    }
+  ]
+}
