@@ -17,9 +17,19 @@ class Recette(models.Model):
 
     name = models.CharField(max_length=30)
     ingredients = models.ManyToManyField(Ingredient, through="RecetteIngredient")
-    nutriscore = models.CharField(choices=Nutriscore, max_length=1, null=True)
-    cs = models.IntegerField(help_text="Score environnemental", null=True)
+    nutriscore = models.CharField(
+        choices=Nutriscore, max_length=1, null=True, default=None, blank=True
+    )
+    cs = models.IntegerField(
+        help_text="Score environnemental", null=True, default=None, blank=True
+    )
+
+    cs_compare = models.IntegerField(
+        help_text="Score environnemental comparé", null=True, default=None, blank=True
+    )
+
     type_plat = models.CharField(choices=TypePlat, max_length=30, null=True)
+    is_bio = models.BooleanField()
 
     def __str__(self):
         return self.name
