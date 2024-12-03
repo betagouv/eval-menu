@@ -1,7 +1,12 @@
 from django.urls import path
-from api.view.recette import RecetteView
 
-app_name = "api"
+from api.view.recette import RecetteViewSet
+from rest_framework.routers import DefaultRouter
+app_name = 'api'
 
-urlpatterns = [path("recettes/", RecetteView.as_view(), name="recettes")]
+router = DefaultRouter()
+router.register(r'recette', RecetteViewSet)  # Ensure 'yourmodel' matches your endpoint name
 
+urlpatterns = [
+    *router.urls,  # Make sure router URLs are included here
+]
