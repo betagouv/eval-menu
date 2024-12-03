@@ -1,5 +1,26 @@
 import json
 from data.models.ingredient import Ingredient
+from data.models.recette import RecetteIngredient
+
+
+def update_scores():
+    print("Updating Ecobalyse score")
+    recettes_ingredients = RecetteIngredient.objects.all().select_related(
+        "recette", "ingredient"
+    )
+    ecobalyse_ingredients = []
+
+    for recette_ingredient in recettes_ingredients:
+        print(f"{recette_ingredient.recette}")
+        ecobalyse_ingredients.append(
+            recette_ingredient.ingredient.id_ecobalyse
+            + ";"
+            + str(int(recette_ingredient.poids))
+        )
+
+    payload = {"ingredients[]": ecobalyse_ingredients}
+
+    print(json.dumps(payload, indent=2))
 
 
 def import_ingredients(ingredients_filepath: str):

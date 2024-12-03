@@ -43,4 +43,4 @@ class RecetteIngredient(models.Model):
     )
 
     def __str__(self):
-        return f"{self.recette} - {self.ingredient}"
+        return f"{self.recette} - {self.ingredient} - {self.poids}"
