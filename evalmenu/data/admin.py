@@ -6,13 +6,16 @@ from data.models.recette import Recette, RecetteIngredient
 class RecetteAdmin(admin.ModelAdmin):
     pass
 
+
 class RecetteIngredientAdmin(admin.ModelAdmin):
-    pass
+    autocomplete_fields = ["ingredient"]
+
 
 class IngredientAdmin(admin.ModelAdmin):
-    pass
+    search_fields = ["name"]
 
 
 admin.site.register(Recette, RecetteAdmin)
 admin.site.register(RecetteIngredient, RecetteIngredientAdmin)
 admin.site.register(Ingredient, IngredientAdmin)
+
