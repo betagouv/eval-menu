@@ -18,9 +18,13 @@ class RecetteViewSet(viewsets.ViewSet):
     permission_classes = [AllowAny]  # Allow all requests  
 
     def list(self, request, *args, **kwargs):
-        queryset = self.get_queryset()  # Fetch all objects
+        queryset = self.queryset  # Fetch all objects
         serializer = self.serializer_class(queryset, many=True)
-        return Response(serializer.data)
+        menu_encapsulation = {
+            "name" : "Menu de la Semaine",
+            "recipes": serializer.data
+        }
+        return Response(menu_encapsulation)
 
     def create(self, request, *args, **kwargs):
         serializer = self.serializer_class(data=request.data)
