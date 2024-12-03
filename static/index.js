@@ -55,28 +55,32 @@ window.onload = async () => {
                 url = `${imgBaseUrl}Nutri-score-C.svg`;
             } else if (plat.nutriscore === 'd') {
                 url = `${imgBaseUrl}Nutri-score-D.svg`;
-            } else {
+            } else {if (plat.nutriscore === 'e') 
                 url = `${imgBaseUrl}Nutri-score-E.svg`;
             }
 
-            let nutriscore = document.createElement('img');
-            scores.appendChild(nutriscore);
-            nutriscore.src = url;
-            nutriscore.className = 'scoreIcon';
+            if(url){
+                let nutriscore = document.createElement('img');
+                scores.appendChild(nutriscore);
+                nutriscore.src = url;
+                nutriscore.className = 'scoreIcon';
+            }
 
-            let ecoscore = document.createElement('div');
-            scores.appendChild(ecoscore);
-            ecoscore.className = 'scoreIcon';
+            if(plat.cs){
+                let ecoscore = document.createElement('div');
+                scores.appendChild(ecoscore);
+                ecoscore.className = 'scoreIcon';
 
-            let ecoscoreImg = document.createElement('img');
-            ecoscore.appendChild(ecoscoreImg);
-            ecoscoreImg.src = `${imgBaseUrl}coût environnemental.jpg`;
-            ecoscoreImg.className = 'scoreImg';
+                let ecoscoreImg = document.createElement('img');
+                ecoscore.appendChild(ecoscoreImg);
+                ecoscoreImg.src = `${imgBaseUrl}coût environnemental.jpg`;
+                ecoscoreImg.className = 'scoreImg';
 
-            let ecoscoreText = document.createElement('div');
-            ecoscore.appendChild(ecoscoreText);
-            ecoscoreText.className = 'scoreText';
-            ecoscoreText.innerHTML = plat.cs;
+                let ecoscoreText = document.createElement('div');
+                ecoscore.appendChild(ecoscoreText);
+                ecoscoreText.className = 'scoreText';
+                ecoscoreText.innerHTML = plat.cs;
+            }
 
             if (!plat.is_bio) {
                 let advertise = document.createElement('div');

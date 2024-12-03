@@ -89,6 +89,11 @@ body {
     margin-right: 5px;
 }
 
+.page{
+    width: 70vw;
+    margin: auto;
+}
+
 .imgContainer {
     margin: 1rem 16px 2rem;
     display: flex;
