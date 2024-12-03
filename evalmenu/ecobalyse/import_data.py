@@ -24,7 +24,7 @@ def update_score_for_recette(recette: Recette):
     }
 
     for recette_ingredient in recettes_ingredients:
-        print(f"{recette_ingredient.recette}")
+        print(f"{recette_ingredient.recette} - {recette_ingredient.ingredient}")
         ecobalyse_ingredients.append(
             {
                 "id": recette_ingredient.ingredient.id_ecobalyse,
