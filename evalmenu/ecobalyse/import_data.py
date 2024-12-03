@@ -1,26 +1,45 @@
 import json
+import requests
 from data.models.ingredient import Ingredient
-from data.models.recette import RecetteIngredient
+from data.models.recette import RecetteIngredient, Recette
+from evalmenu import settings
 
 
 def update_scores():
-    print("Updating Ecobalyse score")
-    recettes_ingredients = RecetteIngredient.objects.all().select_related(
-        "recette", "ingredient"
-    )
+    recettes = Recette.objects.all()
+    for recette in recettes:
+        update_score_for_recette(recette)
+
+
+def update_score_for_recette(recette: Recette):
+    print(f"Updating Ecobalyse score, for recette_id: {recette.id}")
+    recettes_ingredients = RecetteIngredient.objects.filter(
+        recette_id=recette.id
+    ).select_related("recette", "ingredient")
     ecobalyse_ingredients = []
+
+    headers = {
+        "accept": "application/json",
+        "content-type": "application/json",
+    }
 
     for recette_ingredient in recettes_ingredients:
         print(f"{recette_ingredient.recette}")
         ecobalyse_ingredients.append(
-            recette_ingredient.ingredient.id_ecobalyse
-            + ";"
-            + str(int(recette_ingredient.poids))
+            {
+                "id": recette_ingredient.ingredient.id_ecobalyse,
+                "mass": int(recette_ingredient.poids),
+            }
         )
 
-    payload = {"ingredients[]": ecobalyse_ingredients}
+    payload = {"ingredients": ecobalyse_ingredients}
 
-    print(json.dumps(payload, indent=2))
+    response = requests.post(settings.ECOBALYSE_API, headers=headers, json=payload)
+    if response.status_code == 200:
+        score = response.json()["results"]["total"]["ecs"]
+        print(f"ECS score: {score}")
+        recette.cs = score
+        recette.save()
 
 
 def import_ingredients(ingredients_filepath: str):
