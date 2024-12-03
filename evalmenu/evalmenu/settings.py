@@ -128,3 +128,5 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+ECOBALYSE_API = "https://ecobalyse-pr842.osc-fr1.scalingo.io/api/food"
