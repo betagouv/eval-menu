@@ -4,7 +4,7 @@ from data.models.recette import Recette, RecetteIngredient
 
 
 class RecetteAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["name", "cs", "nutriscore"]
 
 
 class RecetteIngredientAdmin(admin.ModelAdmin):
@@ -18,4 +18,3 @@ class IngredientAdmin(admin.ModelAdmin):
 admin.site.register(Recette, RecetteAdmin)
 admin.site.register(RecetteIngredient, RecetteIngredientAdmin)
 admin.site.register(Ingredient, IngredientAdmin)
-
