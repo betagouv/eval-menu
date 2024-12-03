@@ -24,7 +24,7 @@ window.onload = async () => {
                 starters.push(plat);
             } else if (plat.type_plat === 'main') {
                 mains.push(plat);
-            } else if (plat.type_plat === 'dessert') {
+            } else if (plat.type_plat === 'desert') {
                 desserts.push(plat);
             }
         }
