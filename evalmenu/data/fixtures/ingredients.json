@@ -1,0 +1,3464 @@
+[
+  {
+    "model": "data.ingredient",
+    "pk": 1,
+    "fields": {
+      "id_ecobalyse": "egg-bleublanccoeur",
+      "name": "Oeuf Bleu-Blanc-Cœur FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 2,
+    "fields": {
+      "id_ecobalyse": "milk",
+      "name": "Lait FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 3,
+    "fields": {
+      "id_ecobalyse": "milk-organic",
+      "name": "Lait FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 4,
+    "fields": {
+      "id_ecobalyse": "carrot-organic",
+      "name": "Carotte FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 5,
+    "fields": {
+      "id_ecobalyse": "flour",
+      "name": "Farine UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 6,
+    "fields": {
+      "id_ecobalyse": "flour-organic",
+      "name": "Farine FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 7,
+    "fields": {
+      "id_ecobalyse": "sunflower-organic",
+      "name": "Tournesol FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 8,
+    "fields": {
+      "id_ecobalyse": "rapeseed-organic",
+      "name": "Colza FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 9,
+    "fields": {
+      "id_ecobalyse": "ground-beef",
+      "name": "Boeuf haché cru FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 10,
+    "fields": {
+      "id_ecobalyse": "ground-beef-organic",
+      "name": "Boeuf haché cru FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 11,
+    "fields": {
+      "id_ecobalyse": "ground-beef-feedlot",
+      "name": "Boeuf haché cru Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 12,
+    "fields": {
+      "id_ecobalyse": "ground-beef-grass-fed",
+      "name": "Boeuf haché cru - v. de réforme 100% herbe FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 13,
+    "fields": {
+      "id_ecobalyse": "cooked-ham",
+      "name": "Jambon cuit FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 14,
+    "fields": {
+      "id_ecobalyse": "cooked-ham-organic",
+      "name": "Jambon cuit FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 15,
+    "fields": {
+      "id_ecobalyse": "cooked-ham-fr",
+      "name": "Jambon cuit (alim. ani. 100%FR) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 16,
+    "fields": {
+      "id_ecobalyse": "chicken-breast",
+      "name": "Blanc de poulet cru FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 17,
+    "fields": {
+      "id_ecobalyse": "chicken-breast-organic",
+      "name": "Blanc de poulet cru FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 18,
+    "fields": {
+      "id_ecobalyse": "rapeseed-oil",
+      "name": "Huile de colza Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 19,
+    "fields": {
+      "id_ecobalyse": "rapeseed-oil-organic",
+      "name": "Huile de colza FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 20,
+    "fields": {
+      "id_ecobalyse": "sunflower-oil",
+      "name": "Huile de tournesol Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 21,
+    "fields": {
+      "id_ecobalyse": "sunflower-oil-organic",
+      "name": "Huile de tournesol FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 22,
+    "fields": {
+      "id_ecobalyse": "zucchini-organic",
+      "name": "Courgette FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 23,
+    "fields": {
+      "id_ecobalyse": "peach-organic",
+      "name": "Pêche FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 24,
+    "fields": {
+      "id_ecobalyse": "melon-organic",
+      "name": "Melon FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 25,
+    "fields": {
+      "id_ecobalyse": "butter",
+      "name": "Beurre FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 26,
+    "fields": {
+      "id_ecobalyse": "butter-organic",
+      "name": "Beurre FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 27,
+    "fields": {
+      "id_ecobalyse": "tap-water",
+      "name": "Eau du robinet UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 28,
+    "fields": {
+      "id_ecobalyse": "comte-aop",
+      "name": "Comté FR AOP Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 29,
+    "fields": {
+      "id_ecobalyse": "emmental",
+      "name": "Emmental FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 30,
+    "fields": {
+      "id_ecobalyse": "mozzarella",
+      "name": "Mozzarella FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 31,
+    "fields": {
+      "id_ecobalyse": "beetroot-organic",
+      "name": "Betterave rouge FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 32,
+    "fields": {
+      "id_ecobalyse": "celeriac-organic",
+      "name": "Céleri-rave FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 33,
+    "fields": {
+      "id_ecobalyse": "turnip-organic",
+      "name": "Navet FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 34,
+    "fields": {
+      "id_ecobalyse": "chickpea-organic",
+      "name": "Pois chiche FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 35,
+    "fields": {
+      "id_ecobalyse": "soybean-humanconsumption",
+      "name": "Soja FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 36,
+    "fields": {
+      "id_ecobalyse": "soybean-organic",
+      "name": "Soja FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 37,
+    "fields": {
+      "id_ecobalyse": "soybean-br-no-deforestation",
+      "name": "Soja (non déforestant) Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 38,
+    "fields": {
+      "id_ecobalyse": "soybean-br-deforestation",
+      "name": "Soja déforestant Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 39,
+    "fields": {
+      "id_ecobalyse": "sausage-meat",
+      "name": "Chair à saucisse crue FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 40,
+    "fields": {
+      "id_ecobalyse": "sausage-toulouse",
+      "name": "Saucisse de Toulouse (crue) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 41,
+    "fields": {
+      "id_ecobalyse": "sausage-toulouse-cooked",
+      "name": "Saucisse de Toulouse (cuite) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 42,
+    "fields": {
+      "id_ecobalyse": "sausage-tofu",
+      "name": "Saucisse végétale tofu FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 43,
+    "fields": {
+      "id_ecobalyse": "tomato-paste",
+      "name": "Purée de tomates Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 44,
+    "fields": {
+      "id_ecobalyse": "tomato-concentrated",
+      "name": "Concentré de tomates Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 45,
+    "fields": {
+      "id_ecobalyse": "beef-with-bone",
+      "name": "Viande de boeuf avec os (crue) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 46,
+    "fields": {
+      "id_ecobalyse": "beef-without-bone",
+      "name": "Viande de boeuf sans os (crue) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 47,
+    "fields": {
+      "id_ecobalyse": "beef-without-bone-organic",
+      "name": "Viande de boeuf sans os FR ou UE ou Hors UE Bio (crue)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 48,
+    "fields": {
+      "id_ecobalyse": "durum-wheat-semolina",
+      "name": "Semoule de blé dur FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 49,
+    "fields": {
+      "id_ecobalyse": "sugar",
+      "name": "Sucre de betterave FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 50,
+    "fields": {
+      "id_ecobalyse": "dark-chocolate",
+      "name": "Chocolat noir Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 51,
+    "fields": {
+      "id_ecobalyse": "chicken-breast-br-max",
+      "name": "Blanc de poulet cru (alim. ani. 100%BR) Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 52,
+    "fields": {
+      "id_ecobalyse": "cane-sugar",
+      "name": "Sucre de canne Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 53,
+    "fields": {
+      "id_ecobalyse": "tea-dried",
+      "name": "Thé (feuilles) UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 54,
+    "fields": {
+      "id_ecobalyse": "coffee-ground",
+      "name": "Café moulu Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 55,
+    "fields": {
+      "id_ecobalyse": "black-pepper",
+      "name": "Poivre noir Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 56,
+    "fields": {
+      "id_ecobalyse": "milk-powder",
+      "name": "Poudre de lait écrémé FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 57,
+    "fields": {
+      "id_ecobalyse": "red-wine",
+      "name": "Vin rouge FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 58,
+    "fields": {
+      "id_ecobalyse": "fresh-shrimps",
+      "name": "Crevettes fraîches Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 59,
+    "fields": {
+      "id_ecobalyse": "large-trout",
+      "name": "Truite d'élevage FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 60,
+    "fields": {
+      "id_ecobalyse": "egg-indoor-code2",
+      "name": "Oeuf FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 61,
+    "fields": {
+      "id_ecobalyse": "egg-indoor-code3",
+      "name": "Oeuf (code 3) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 62,
+    "fields": {
+      "id_ecobalyse": "egg-outdoor-code1",
+      "name": "Oeuf (code 1) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 63,
+    "fields": {
+      "id_ecobalyse": "egg-organic-code0",
+      "name": "Oeuf FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 64,
+    "fields": {
+      "id_ecobalyse": "wine-grape-organic",
+      "name": "Raisin de cuve FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 65,
+    "fields": {
+      "id_ecobalyse": "lamb-meat-without-bone",
+      "name": "Viande d'agneau (désossée) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 66,
+    "fields": {
+      "id_ecobalyse": "lamb-meat-without-bone-organic",
+      "name": "Viande d'agneau FR ou UE ou Hors UE Bio (désossée)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 67,
+    "fields": {
+      "id_ecobalyse": "pear-organic",
+      "name": "Poire FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 68,
+    "fields": {
+      "id_ecobalyse": "carrot-fr",
+      "name": "Carotte FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 69,
+    "fields": {
+      "id_ecobalyse": "carrot-eu",
+      "name": "Carotte UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 70,
+    "fields": {
+      "id_ecobalyse": "carrot-non-ue",
+      "name": "Carotte Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 71,
+    "fields": {
+      "id_ecobalyse": "zucchini-fr",
+      "name": "Courgette FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 72,
+    "fields": {
+      "id_ecobalyse": "zucchini-eu",
+      "name": "Courgette UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 73,
+    "fields": {
+      "id_ecobalyse": "pear-fr",
+      "name": "Poire FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 74,
+    "fields": {
+      "id_ecobalyse": "pear-eu",
+      "name": "Poire UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 75,
+    "fields": {
+      "id_ecobalyse": "peach-fr",
+      "name": "Pêche FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 76,
+    "fields": {
+      "id_ecobalyse": "peach-eu",
+      "name": "Pêche UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 77,
+    "fields": {
+      "id_ecobalyse": "melon-fr",
+      "name": "Melon FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 78,
+    "fields": {
+      "id_ecobalyse": "melon-eu",
+      "name": "Melon UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 79,
+    "fields": {
+      "id_ecobalyse": "potato-industry-fr",
+      "name": "Pomme de terre industrie FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 80,
+    "fields": {
+      "id_ecobalyse": "potato-table-fr",
+      "name": "Pomme de terre de table FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 81,
+    "fields": {
+      "id_ecobalyse": "potato-starch",
+      "name": "Fécule de pomme de terre Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 82,
+    "fields": {
+      "id_ecobalyse": "onion-fr",
+      "name": "Oignon FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 83,
+    "fields": {
+      "id_ecobalyse": "onion-eu",
+      "name": "Oignon UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 84,
+    "fields": {
+      "id_ecobalyse": "onion-non-ue",
+      "name": "Oignon Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 85,
+    "fields": {
+      "id_ecobalyse": "eggplant-fr",
+      "name": "Aubergine FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 86,
+    "fields": {
+      "id_ecobalyse": "eggplant-eu",
+      "name": "Aubergine UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 87,
+    "fields": {
+      "id_ecobalyse": "french-bean-fr",
+      "name": "Haricot vert FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 88,
+    "fields": {
+      "id_ecobalyse": "french-bean-eu",
+      "name": "Haricot vert UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 89,
+    "fields": {
+      "id_ecobalyse": "french-bean-non-eu",
+      "name": "Haricot vert Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 90,
+    "fields": {
+      "id_ecobalyse": "lettuce-fr",
+      "name": "Laitue FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 91,
+    "fields": {
+      "id_ecobalyse": "lettuce-eu",
+      "name": "Laitue UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 92,
+    "fields": {
+      "id_ecobalyse": "lettuce-non-eu",
+      "name": "Laitue Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 93,
+    "fields": {
+      "id_ecobalyse": "garden-peas-fr",
+      "name": "Petit pois FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 94,
+    "fields": {
+      "id_ecobalyse": "garden-peas-eu",
+      "name": "Petit pois UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 95,
+    "fields": {
+      "id_ecobalyse": "cherry-fr",
+      "name": "Cerise FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 96,
+    "fields": {
+      "id_ecobalyse": "lemon-eu",
+      "name": "Citron UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 97,
+    "fields": {
+      "id_ecobalyse": "plum-fr",
+      "name": "Prune FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 98,
+    "fields": {
+      "id_ecobalyse": "squash-fr",
+      "name": "Courge FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 99,
+    "fields": {
+      "id_ecobalyse": "squash-eu",
+      "name": "Courge UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 100,
+    "fields": {
+      "id_ecobalyse": "squash-organic",
+      "name": "Courge FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 101,
+    "fields": {
+      "id_ecobalyse": "tomato-heated-greenhouse-fr",
+      "name": "Tomate sous serre chauffée Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 102,
+    "fields": {
+      "id_ecobalyse": "tomato-greenhouse-fr",
+      "name": "Tomate sous serre non chauffée FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 103,
+    "fields": {
+      "id_ecobalyse": "tomato-greenhouse-eu",
+      "name": "Tomate UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 104,
+    "fields": {
+      "id_ecobalyse": "apricot-fr",
+      "name": "Abricot FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 105,
+    "fields": {
+      "id_ecobalyse": "apricot-eu",
+      "name": "Abricot UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 106,
+    "fields": {
+      "id_ecobalyse": "hazelnut-non-eu",
+      "name": "Noisette avec coque Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 107,
+    "fields": {
+      "id_ecobalyse": "hazelnut-eu",
+      "name": "Noisette avec coque UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 108,
+    "fields": {
+      "id_ecobalyse": "hazelnut-unshelled-eu",
+      "name": "Noisette décortiquée UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 109,
+    "fields": {
+      "id_ecobalyse": "hazelnut-unshelled-non-eu",
+      "name": "Noisette décortiquée Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 110,
+    "fields": {
+      "id_ecobalyse": "artichoke-fr",
+      "name": "Artichaut FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 111,
+    "fields": {
+      "id_ecobalyse": "artichoke-organic",
+      "name": "Artichaut FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 112,
+    "fields": {
+      "id_ecobalyse": "cauliflower-organic",
+      "name": "Chou-fleur FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 113,
+    "fields": {
+      "id_ecobalyse": "cauliflower-fr",
+      "name": "Chou-fleur FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 114,
+    "fields": {
+      "id_ecobalyse": "leek-fr",
+      "name": "Poireau FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 115,
+    "fields": {
+      "id_ecobalyse": "beetroot-fr",
+      "name": "Betterave rouge FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 116,
+    "fields": {
+      "id_ecobalyse": "turnip-fr",
+      "name": "Navet FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 117,
+    "fields": {
+      "id_ecobalyse": "turnip-eu",
+      "name": "Navet UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 118,
+    "fields": {
+      "id_ecobalyse": "turnip-non-eu",
+      "name": "Navet Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 119,
+    "fields": {
+      "id_ecobalyse": "chinese-cabbage-fr",
+      "name": "Chou chinois FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 120,
+    "fields": {
+      "id_ecobalyse": "chinese-cabbage-organic",
+      "name": "Chou chinois FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 121,
+    "fields": {
+      "id_ecobalyse": "white-cabbage-non-eu",
+      "name": "Chou blanc Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 122,
+    "fields": {
+      "id_ecobalyse": "green-cabbage-fr",
+      "name": "Chou vert FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 123,
+    "fields": {
+      "id_ecobalyse": "green-cabbage-organic",
+      "name": "Chou vert FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 124,
+    "fields": {
+      "id_ecobalyse": "red-cabbage-non-eu",
+      "name": "Chou rouge Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 125,
+    "fields": {
+      "id_ecobalyse": "shallot-fr",
+      "name": "Echalote FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 126,
+    "fields": {
+      "id_ecobalyse": "orange-eu",
+      "name": "Orange UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 127,
+    "fields": {
+      "id_ecobalyse": "orange-non-eu",
+      "name": "Orange Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 128,
+    "fields": {
+      "id_ecobalyse": "olive-eu",
+      "name": "Olive UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 129,
+    "fields": {
+      "id_ecobalyse": "rapeseed-fr",
+      "name": "Colza FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 130,
+    "fields": {
+      "id_ecobalyse": "rapeseed-eu",
+      "name": "Colza UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 131,
+    "fields": {
+      "id_ecobalyse": "rapeseed-non-eu",
+      "name": "Colza Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 132,
+    "fields": {
+      "id_ecobalyse": "pistachio-non-eu",
+      "name": "Pistache avec coque Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 133,
+    "fields": {
+      "id_ecobalyse": "peanut-non-eu",
+      "name": "Arachide avec coque Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 134,
+    "fields": {
+      "id_ecobalyse": "olive-oil-eu",
+      "name": "Huile d'olive UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 135,
+    "fields": {
+      "id_ecobalyse": "avocado-non-eu",
+      "name": "Avocat Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 136,
+    "fields": {
+      "id_ecobalyse": "chickpea-fr",
+      "name": "Pois chiche FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 137,
+    "fields": {
+      "id_ecobalyse": "sunflower-fr",
+      "name": "Tournesol FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 138,
+    "fields": {
+      "id_ecobalyse": "sunflower-eu",
+      "name": "Tournesol UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 139,
+    "fields": {
+      "id_ecobalyse": "sunflower-non-eu",
+      "name": "Tournesol Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 140,
+    "fields": {
+      "id_ecobalyse": "kiwi-fr",
+      "name": "Kiwi FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 141,
+    "fields": {
+      "id_ecobalyse": "kiwi-eu",
+      "name": "Kiwi UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 142,
+    "fields": {
+      "id_ecobalyse": "kiwi-non-eu",
+      "name": "Kiwi Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 143,
+    "fields": {
+      "id_ecobalyse": "mango-non-eu",
+      "name": "Mangue Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 144,
+    "fields": {
+      "id_ecobalyse": "spinach-non-eu",
+      "name": "Epinard Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 145,
+    "fields": {
+      "id_ecobalyse": "fennel-fr",
+      "name": "Fenouil FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 146,
+    "fields": {
+      "id_ecobalyse": "fennel-eu",
+      "name": "Fenouil UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 147,
+    "fields": {
+      "id_ecobalyse": "broccoli-eu",
+      "name": "Brocoli UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 148,
+    "fields": {
+      "id_ecobalyse": "blueberry-non-eu",
+      "name": "Myrtille Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 149,
+    "fields": {
+      "id_ecobalyse": "raspberry-eu",
+      "name": "Framboise UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 150,
+    "fields": {
+      "id_ecobalyse": "strawberry-eu",
+      "name": "Fraise UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 151,
+    "fields": {
+      "id_ecobalyse": "strawberry-non-eu",
+      "name": "Fraise Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 152,
+    "fields": {
+      "id_ecobalyse": "banana-wi",
+      "name": "Banane hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 153,
+    "fields": {
+      "id_ecobalyse": "banana-non-eu",
+      "name": "Banane Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 154,
+    "fields": {
+      "id_ecobalyse": "cucumber-fr-inseason",
+      "name": "Concombre de saison FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 155,
+    "fields": {
+      "id_ecobalyse": "cucumber-fr-offseason",
+      "name": "Concombre hors saison FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 156,
+    "fields": {
+      "id_ecobalyse": "cucumber-eu",
+      "name": "Concombre hors saison UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 157,
+    "fields": {
+      "id_ecobalyse": "strawberry-fr-inseason",
+      "name": "Fraise de saison FR  Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 158,
+    "fields": {
+      "id_ecobalyse": "strawberry-fr-offseason",
+      "name": "Fraise hors saison FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 159,
+    "fields": {
+      "id_ecobalyse": "celery-fr",
+      "name": "Céleri branche FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 160,
+    "fields": {
+      "id_ecobalyse": "celery-eu",
+      "name": "Céleri branche UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 161,
+    "fields": {
+      "id_ecobalyse": "celeriac-fr",
+      "name": "Céleri-rave FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 162,
+    "fields": {
+      "id_ecobalyse": "celeriac-eu",
+      "name": "Céleri-rave UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 163,
+    "fields": {
+      "id_ecobalyse": "celeriac-non-eu",
+      "name": "Céleri-rave Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 164,
+    "fields": {
+      "id_ecobalyse": "walnut-inshell-fr",
+      "name": "Noix avec coque FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 165,
+    "fields": {
+      "id_ecobalyse": "walnut-husked-fr",
+      "name": "Noix décortiquées FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 166,
+    "fields": {
+      "id_ecobalyse": "chestnut-husked-fr",
+      "name": "Châtaigne décortiquée FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 167,
+    "fields": {
+      "id_ecobalyse": "chestnut-inshell-fr",
+      "name": "Châtaigne avec coque FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 168,
+    "fields": {
+      "id_ecobalyse": "mandarin-eu",
+      "name": "Mandarine UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 169,
+    "fields": {
+      "id_ecobalyse": "mushroom-eu",
+      "name": "Champignon frais UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 170,
+    "fields": {
+      "id_ecobalyse": "brussels-sprout-fr",
+      "name": "Chou de Bruxelles FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 171,
+    "fields": {
+      "id_ecobalyse": "brussels-sprout-organic",
+      "name": "Chou de Bruxelles FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 172,
+    "fields": {
+      "id_ecobalyse": "lentils-uncooked-fr",
+      "name": "Lentilles FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 173,
+    "fields": {
+      "id_ecobalyse": "curly-kale-fr",
+      "name": "Chou frisé FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 174,
+    "fields": {
+      "id_ecobalyse": "curly-kale-organic",
+      "name": "Chou frisé FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 175,
+    "fields": {
+      "id_ecobalyse": "pumpkin-fr",
+      "name": "Citrouille FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 176,
+    "fields": {
+      "id_ecobalyse": "clementine-non-eu",
+      "name": "Clémentine Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 177,
+    "fields": {
+      "id_ecobalyse": "endive-fr",
+      "name": "Endive FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 178,
+    "fields": {
+      "id_ecobalyse": "endive-eu",
+      "name": "Endive UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 179,
+    "fields": {
+      "id_ecobalyse": "wine-grape-fr",
+      "name": "Raisin de cuve FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 180,
+    "fields": {
+      "id_ecobalyse": "lambs-lettuce-fr",
+      "name": "Mâche FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 181,
+    "fields": {
+      "id_ecobalyse": "lambs-lettuce-eu",
+      "name": "Mâche UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 182,
+    "fields": {
+      "id_ecobalyse": "sweet-corn-fr",
+      "name": "Maïs doux FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 183,
+    "fields": {
+      "id_ecobalyse": "sweet-corn-organic-fr",
+      "name": "Maïs doux FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 184,
+    "fields": {
+      "id_ecobalyse": "sweet-corn-br",
+      "name": "Maïs doux Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 185,
+    "fields": {
+      "id_ecobalyse": "pineapple-non-eu",
+      "name": "Ananas Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 186,
+    "fields": {
+      "id_ecobalyse": "broad-beans-eu",
+      "name": "Fève UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 187,
+    "fields": {
+      "id_ecobalyse": "broad-beans-fr",
+      "name": "Fève FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 188,
+    "fields": {
+      "id_ecobalyse": "swiss-chard-eu",
+      "name": "Blette UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 189,
+    "fields": {
+      "id_ecobalyse": "swiss-chard-fr",
+      "name": "Blette FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 190,
+    "fields": {
+      "id_ecobalyse": "flageolet-bean-eu",
+      "name": "Haricot flageolet UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 191,
+    "fields": {
+      "id_ecobalyse": "flageolet-bean-fr",
+      "name": "Haricot flageolet FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 192,
+    "fields": {
+      "id_ecobalyse": "rice-basmati-non-eu",
+      "name": "Riz basmati Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 193,
+    "fields": {
+      "id_ecobalyse": "soft-wheat-organic",
+      "name": "Blé tendre FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 194,
+    "fields": {
+      "id_ecobalyse": "soft-wheat-fr",
+      "name": "Blé tendre FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 195,
+    "fields": {
+      "id_ecobalyse": "soft-wheat-non-eu",
+      "name": "Blé tendre Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 196,
+    "fields": {
+      "id_ecobalyse": "durum-wheat-fr",
+      "name": "Blé dur FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 197,
+    "fields": {
+      "id_ecobalyse": "durum-wheat-eu",
+      "name": "Blé dur UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 198,
+    "fields": {
+      "id_ecobalyse": "durum-wheat-non-eu",
+      "name": "Blé dur Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 199,
+    "fields": {
+      "id_ecobalyse": "apple-organic",
+      "name": "Pomme FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 200,
+    "fields": {
+      "id_ecobalyse": "apple-fr",
+      "name": "Pomme FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 201,
+    "fields": {
+      "id_ecobalyse": "potato-table-organic",
+      "name": "Pomme de terre de table FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 202,
+    "fields": {
+      "id_ecobalyse": "potato-industry-organic",
+      "name": "Pomme de terre industrie FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 203,
+    "fields": {
+      "id_ecobalyse": "kiwi-organic",
+      "name": "Kiwi FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 204,
+    "fields": {
+      "id_ecobalyse": "red-cabbage-organic",
+      "name": "Chou rouge FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 205,
+    "fields": {
+      "id_ecobalyse": "sugar-beet-organic",
+      "name": "Betterave sucrière FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 206,
+    "fields": {
+      "id_ecobalyse": "papaya-organic",
+      "name": "Papaye FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 207,
+    "fields": {
+      "id_ecobalyse": "tomato-organic",
+      "name": "Tomate FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 208,
+    "fields": {
+      "id_ecobalyse": "pineapple-organic",
+      "name": "Ananas FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 209,
+    "fields": {
+      "id_ecobalyse": "garden-peas-organic",
+      "name": "Petit pois FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 210,
+    "fields": {
+      "id_ecobalyse": "almond-inshell-organic",
+      "name": "Amandes en coque FR ou UE ou Hors UE Bio ",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 211,
+    "fields": {
+      "id_ecobalyse": "lettuce-organic",
+      "name": "Laitue FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 212,
+    "fields": {
+      "id_ecobalyse": "mango-organic",
+      "name": "Mangue FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 213,
+    "fields": {
+      "id_ecobalyse": "lychee-organic",
+      "name": "Litchi Hors FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 214,
+    "fields": {
+      "id_ecobalyse": "lychee-non-eu",
+      "name": "Litchi Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 215,
+    "fields": {
+      "id_ecobalyse": "banana-organic",
+      "name": "Banane FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 216,
+    "fields": {
+      "id_ecobalyse": "orange-organic",
+      "name": "Orange FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 217,
+    "fields": {
+      "id_ecobalyse": "lemon-organic",
+      "name": "Citron FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 218,
+    "fields": {
+      "id_ecobalyse": "celery-organic",
+      "name": "Céleri branche FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 219,
+    "fields": {
+      "id_ecobalyse": "olive-organic",
+      "name": "Olive FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 220,
+    "fields": {
+      "id_ecobalyse": "peanut-organic",
+      "name": "Arachide avec coque FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 221,
+    "fields": {
+      "id_ecobalyse": "raspberry-organic",
+      "name": "Framboise FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 222,
+    "fields": {
+      "id_ecobalyse": "lambs-lettuce-organic",
+      "name": "Mâche FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 223,
+    "fields": {
+      "id_ecobalyse": "endive-organic",
+      "name": "Endive FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 224,
+    "fields": {
+      "id_ecobalyse": "durum-wheat-organic",
+      "name": "Blé dur FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 225,
+    "fields": {
+      "id_ecobalyse": "onion-organic",
+      "name": "Oignon FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 226,
+    "fields": {
+      "id_ecobalyse": "rice-basmati-organic",
+      "name": "Riz basmati FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 227,
+    "fields": {
+      "id_ecobalyse": "radish-organic",
+      "name": "Radis FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 228,
+    "fields": {
+      "id_ecobalyse": "lentils-uncooked-organic",
+      "name": "Lentilles Hors FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 229,
+    "fields": {
+      "id_ecobalyse": "apricot-organic",
+      "name": "Abricot FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 230,
+    "fields": {
+      "id_ecobalyse": "leek-organic",
+      "name": "Poireau FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 231,
+    "fields": {
+      "id_ecobalyse": "cherry-organic",
+      "name": "Cerise FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 232,
+    "fields": {
+      "id_ecobalyse": "plum-organic",
+      "name": "Prune FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 233,
+    "fields": {
+      "id_ecobalyse": "shallot-organic",
+      "name": "Echalote FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 234,
+    "fields": {
+      "id_ecobalyse": "blueberry-organic",
+      "name": "Myrtille FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 235,
+    "fields": {
+      "id_ecobalyse": "spinach-organic",
+      "name": "Epinard FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 236,
+    "fields": {
+      "id_ecobalyse": "watermelon-organic",
+      "name": "Pastèque FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 237,
+    "fields": {
+      "id_ecobalyse": "silage-maize-fr",
+      "name": "Ensilage maïs FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 238,
+    "fields": {
+      "id_ecobalyse": "silage-maize-organic",
+      "name": "Ensilage maïs FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 239,
+    "fields": {
+      "id_ecobalyse": "cherry-tr",
+      "name": "Cerise Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 240,
+    "fields": {
+      "id_ecobalyse": "refined-palm-oil",
+      "name": "Huile de palme (raffinée) UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 241,
+    "fields": {
+      "id_ecobalyse": "refined-linseed-oil",
+      "name": "Huile de lin (raffinée) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 242,
+    "fields": {
+      "id_ecobalyse": "refined-grapeseed-oil",
+      "name": "Huile de pépin de raisin (raffinée) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 243,
+    "fields": {
+      "id_ecobalyse": "refined-soybean-oil",
+      "name": "Huile de soja (raffinée) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 244,
+    "fields": {
+      "id_ecobalyse": "virgin-hazelnut-oil",
+      "name": "Huile de noisette (vierge) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 245,
+    "fields": {
+      "id_ecobalyse": "refined-peanut-oil",
+      "name": "Huile d'arachide (raffinée) Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 246,
+    "fields": {
+      "id_ecobalyse": "refined-sunflower-oil",
+      "name": "Huile de tournesol (raffinée) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 247,
+    "fields": {
+      "id_ecobalyse": "refined-rapeseed-oil",
+      "name": "Huile de colza (raffinée) FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 248,
+    "fields": {
+      "id_ecobalyse": "extra-virgin-olive-oil",
+      "name": "Huile d'olive (extra vierge) UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 249,
+    "fields": {
+      "id_ecobalyse": "fresh-cream-cheese",
+      "name": "Crème fraiche FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 250,
+    "fields": {
+      "id_ecobalyse": "egg-without-shell-fr",
+      "name": "Oeuf cru décoquillé FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 251,
+    "fields": {
+      "id_ecobalyse": "egg-yolk-powder-fr",
+      "name": "poudre de jaune d'oeuf FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 252,
+    "fields": {
+      "id_ecobalyse": "egg-white-powder-fr",
+      "name": "poudre de blanc d'oeuf FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 253,
+    "fields": {
+      "id_ecobalyse": "emmental-grated-fr",
+      "name": "Emmental rapé FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 254,
+    "fields": {
+      "id_ecobalyse": "cocoa-powder-non-ue",
+      "name": "Poudre de cacao Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 255,
+    "fields": { "id_ecobalyse": "salt", "name": "Sel", "description": null }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 256,
+    "fields": {
+      "id_ecobalyse": "bacon-fr",
+      "name": "Poitrine de porc FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 257,
+    "fields": {
+      "id_ecobalyse": "glucose-syrup",
+      "name": "Sirop de glucose FR ou UE ou Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 258,
+    "fields": {
+      "id_ecobalyse": "apple-compote-fr",
+      "name": "Compote de pomme FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 259,
+    "fields": {
+      "id_ecobalyse": "goat-milk",
+      "name": "Lait de chèvre FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 260,
+    "fields": {
+      "id_ecobalyse": "breakfast-cereals",
+      "name": "Mélange de céréales FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 261,
+    "fields": {
+      "id_ecobalyse": "pasta",
+      "name": "Pâtes FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 262,
+    "fields": {
+      "id_ecobalyse": "garlic",
+      "name": "Ail FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 263,
+    "fields": {
+      "id_ecobalyse": "vegetable-mix",
+      "name": "Mélange de légumes",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 264,
+    "fields": {
+      "id_ecobalyse": "bolognese",
+      "name": "Sauce tomate à la viande FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 265,
+    "fields": {
+      "id_ecobalyse": "honey",
+      "name": "Miel FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 266,
+    "fields": {
+      "id_ecobalyse": "turkey",
+      "name": "Viande de dinde FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 267,
+    "fields": {
+      "id_ecobalyse": "pork-liver",
+      "name": "Foie de porc cru FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 268,
+    "fields": {
+      "id_ecobalyse": "whey",
+      "name": "Poudre de lactosérum FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 269,
+    "fields": {
+      "id_ecobalyse": "strawberry-coulis",
+      "name": "Purée de fraise FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 270,
+    "fields": {
+      "id_ecobalyse": "yogurt",
+      "name": "Fromage blanc FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 271,
+    "fields": {
+      "id_ecobalyse": "goat-cheese",
+      "name": "Fromage de chèvre FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 272,
+    "fields": {
+      "id_ecobalyse": "cocoa-butter",
+      "name": "Beurre de cacao Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 273,
+    "fields": {
+      "id_ecobalyse": "soy-protein",
+      "name": "Protéines de soja Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 274,
+    "fields": {
+      "id_ecobalyse": "vinegar-alcohol",
+      "name": "Vinaigre d'alcool FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 275,
+    "fields": {
+      "id_ecobalyse": "veal-meat",
+      "name": "Viande de veau FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 276,
+    "fields": {
+      "id_ecobalyse": "french-fries",
+      "name": "Frites de pomme de terre congelées FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 277,
+    "fields": {
+      "id_ecobalyse": "tomato-sauce",
+      "name": "Sauce tomate FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 278,
+    "fields": {
+      "id_ecobalyse": "mustard",
+      "name": "Moutarde FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 279,
+    "fields": {
+      "id_ecobalyse": "rice-flour",
+      "name": "Farine de riz Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 280,
+    "fields": {
+      "id_ecobalyse": "brie-cheese",
+      "name": "Brie FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 281,
+    "fields": {
+      "id_ecobalyse": "turmeric",
+      "name": "Curcuma Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 282,
+    "fields": {
+      "id_ecobalyse": "candied-fruits",
+      "name": "Fruits confits FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 283,
+    "fields": {
+      "id_ecobalyse": "reblochon",
+      "name": "Reblochon FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 284,
+    "fields": {
+      "id_ecobalyse": "fruit-puree",
+      "name": "Purée de fruits FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 285,
+    "fields": {
+      "id_ecobalyse": "apple-juice",
+      "name": "Jus de pomme FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 286,
+    "fields": {
+      "id_ecobalyse": "orange-juice",
+      "name": "Jus d'orange Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 287,
+    "fields": {
+      "id_ecobalyse": "soy-milk",
+      "name": "Lait de soja Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 288,
+    "fields": {
+      "id_ecobalyse": "lemon-juice",
+      "name": "Jus de citron UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 289,
+    "fields": {
+      "id_ecobalyse": "tomato-juice",
+      "name": "Jus de tomate UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 290,
+    "fields": {
+      "id_ecobalyse": "balsamic-vinegar",
+      "name": "Vinaigre balsamique FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 291,
+    "fields": {
+      "id_ecobalyse": "apricot-non-eu",
+      "name": "Abricot Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 292,
+    "fields": {
+      "id_ecobalyse": "lamb-meat-without-bone-eu",
+      "name": "Viande d'agneau (désossée) UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 293,
+    "fields": {
+      "id_ecobalyse": "lamb-meat-without-bone-non-eu",
+      "name": "Viande d'agneau (désossée) Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 294,
+    "fields": {
+      "id_ecobalyse": "almond-inshell-fr",
+      "name": "Amandes en coque FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 295,
+    "fields": {
+      "id_ecobalyse": "almond-inshell-ue",
+      "name": "Amandes en coque UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 296,
+    "fields": {
+      "id_ecobalyse": "almond-inshell-non-ue",
+      "name": "Amandes en coque Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 297,
+    "fields": {
+      "id_ecobalyse": "artichoke-eu",
+      "name": "Artichaut UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 298,
+    "fields": {
+      "id_ecobalyse": "artichoke-non-eu",
+      "name": "Artichaut Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 299,
+    "fields": {
+      "id_ecobalyse": "avocado-organic",
+      "name": "Avocat FR ou UE ou Hors UE BIO",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 300,
+    "fields": {
+      "id_ecobalyse": "avocado-eu",
+      "name": "Avocat UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 301,
+    "fields": {
+      "id_ecobalyse": "chard-organic",
+      "name": "Blette FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 302,
+    "fields": {
+      "id_ecobalyse": "swiss-chard-non-eu",
+      "name": "Blette Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 303,
+    "fields": {
+      "id_ecobalyse": "broccoli-organic",
+      "name": "Brocoli FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 304,
+    "fields": {
+      "id_ecobalyse": "broccoli-fr",
+      "name": "Brocoli FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 305,
+    "fields": {
+      "id_ecobalyse": "broccoli-non-eu",
+      "name": "Brocoli Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 306,
+    "fields": {
+      "id_ecobalyse": "celery-non-eu",
+      "name": "Céleri branche Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 307,
+    "fields": {
+      "id_ecobalyse": "cherry-ue",
+      "name": "Cerise UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 308,
+    "fields": {
+      "id_ecobalyse": "mushroom-fr",
+      "name": "Champignon frais FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 309,
+    "fields": {
+      "id_ecobalyse": "walnut-inshell-organic",
+      "name": "Noix avec coque FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 310,
+    "fields": {
+      "id_ecobalyse": "white-cabbage-eu",
+      "name": "Chou blanc UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 311,
+    "fields": {
+      "id_ecobalyse": "white-cabbage-fr",
+      "name": "Chou blanc FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 312,
+    "fields": {
+      "id_ecobalyse": "white-cabbage-organic",
+      "name": "Chou blanc FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 313,
+    "fields": {
+      "id_ecobalyse": "chinese-cabbage-ue",
+      "name": "Chou chinois UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 314,
+    "fields": {
+      "id_ecobalyse": "chinese-cabbage-non-ue",
+      "name": "Chou chinois Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 315,
+    "fields": {
+      "id_ecobalyse": "brussels-sprout-ue",
+      "name": "Chou de Bruxelles UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 316,
+    "fields": {
+      "id_ecobalyse": "brussels-sprout-non-ue",
+      "name": "Chou de Bruxelles Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 317,
+    "fields": {
+      "id_ecobalyse": "refined-palm-oil-non-ue",
+      "name": "Huile de palme (raffinée) Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 318,
+    "fields": {
+      "id_ecobalyse": "sunflower-oil-eu",
+      "name": "Huile de tournesol UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 319,
+    "fields": {
+      "id_ecobalyse": "milk-eu",
+      "name": "Lait UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 320,
+    "fields": {
+      "id_ecobalyse": "milk-non-eu",
+      "name": "Lait Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 321,
+    "fields": {
+      "id_ecobalyse": "lentils-uncooked-eu",
+      "name": "Lentilles UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 322,
+    "fields": {
+      "id_ecobalyse": "lentils-uncooked-non-eu",
+      "name": "Lentilles Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 323,
+    "fields": {
+      "id_ecobalyse": "lambs-lettuce-non-eu",
+      "name": "Mâche Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 324,
+    "fields": {
+      "id_ecobalyse": "sweet-corn-eu",
+      "name": "Maïs doux UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 325,
+    "fields": {
+      "id_ecobalyse": "unknown-cereals-and-grain-products",
+      "name": "Autres céréales et produits céréaliers (non encore répertoriés)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 326,
+    "fields": {
+      "id_ecobalyse": "unknown-dairy-product",
+      "name": "Autres produits laitiers (non encore répertoriés)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 327,
+    "fields": {
+      "id_ecobalyse": "unknown-fruit-vegetable",
+      "name": "Autres fruits, légumes, légumineuses, oléagineux (non encore répertoriés)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 328,
+    "fields": {
+      "id_ecobalyse": "unknown-red-meat",
+      "name": "Autres viandes, oeufs, poissons (non encore répertoriés)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 329,
+    "fields": {
+      "id_ecobalyse": "unknown-groceries",
+      "name": "Autres ingrédients divers (non encore répertoriés)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 330,
+    "fields": {
+      "id_ecobalyse": "unknown-drink",
+      "name": "Autres eaux et autres boissons (non encore répertoriées)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 331,
+    "fields": {
+      "id_ecobalyse": "unknown-white-meat",
+      "name": "Autres viandes blanches, oeufs et poisson (non encore répertoriés)Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 332,
+    "fields": {
+      "id_ecobalyse": "unknwon-fishery-products",
+      "name": "Autres produits issus de la pêche (non encore répertoriés)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 333,
+    "fields": {
+      "id_ecobalyse": "unknown-dried-fruits",
+      "name": "Autres fruits secs (non encore répertoriés)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 334,
+    "fields": {
+      "id_ecobalyse": "unknown-oil",
+      "name": "Autres huiles (non encore répertoriées)",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 335,
+    "fields": {
+      "id_ecobalyse": "anchovy-fr",
+      "name": "Anchois FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 336,
+    "fields": {
+      "id_ecobalyse": "anchovy-eu",
+      "name": "Anchois UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 337,
+    "fields": {
+      "id_ecobalyse": "anchovy-non-eu",
+      "name": "Anchois Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 338,
+    "fields": {
+      "id_ecobalyse": "sardine-fr",
+      "name": "Sardine FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 339,
+    "fields": {
+      "id_ecobalyse": "sardine-eu",
+      "name": "Sardine UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 340,
+    "fields": {
+      "id_ecobalyse": "sardine-non-eu",
+      "name": "Sardine Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 341,
+    "fields": {
+      "id_ecobalyse": "cod-eu",
+      "name": "Morue UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 342,
+    "fields": {
+      "id_ecobalyse": "crab-fr",
+      "name": "Crabe FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 343,
+    "fields": {
+      "id_ecobalyse": "crab-eu",
+      "name": "Crabe UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 344,
+    "fields": {
+      "id_ecobalyse": "hake-eu",
+      "name": "Colin UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 345,
+    "fields": {
+      "id_ecobalyse": "lobster-fr",
+      "name": "Homard FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 346,
+    "fields": {
+      "id_ecobalyse": "lobster-eu",
+      "name": "Homard UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 347,
+    "fields": {
+      "id_ecobalyse": "lobster-non-eu",
+      "name": "Homard Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 348,
+    "fields": {
+      "id_ecobalyse": "salmon-raw-eu",
+      "name": "Saumon cru UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 349,
+    "fields": {
+      "id_ecobalyse": "squid-fr",
+      "name": "Calmar FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 350,
+    "fields": {
+      "id_ecobalyse": "mandarin-non-eu",
+      "name": "Mandarine Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 351,
+    "fields": {
+      "id_ecobalyse": "melon-non-eu",
+      "name": "Melon Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 352,
+    "fields": {
+      "id_ecobalyse": "blueberry-eu",
+      "name": "Myrtille UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 353,
+    "fields": {
+      "id_ecobalyse": "blueberry-fr",
+      "name": "Myrtille FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 354,
+    "fields": {
+      "id_ecobalyse": "hazelnut-organic",
+      "name": "Noisette avec coque FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 355,
+    "fields": {
+      "id_ecobalyse": "hazelnut-unshelled-organic",
+      "name": "Noisette décortiquée FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 356,
+    "fields": {
+      "id_ecobalyse": "hazelnut-unshelled-fr",
+      "name": "Noisette décortiquée FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 357,
+    "fields": {
+      "id_ecobalyse": "chesnut-inshell-organic",
+      "name": "Châtaigne avec coque FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 358,
+    "fields": {
+      "id_ecobalyse": "walnut-inshell-eu",
+      "name": "Noix avec coque UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 359,
+    "fields": {
+      "id_ecobalyse": "walnut-inshell-non-eu",
+      "name": "Noix avec coque Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 360,
+    "fields": {
+      "id_ecobalyse": "olive-fr",
+      "name": "Olive UE Conv.-1",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 361,
+    "fields": {
+      "id_ecobalyse": "barley-non-eu",
+      "name": "Orge Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 362,
+    "fields": {
+      "id_ecobalyse": "pistachio-organic",
+      "name": "Pistache avec coque FR ou UE ou Hors UE Bio",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 363,
+    "fields": {
+      "id_ecobalyse": "leek-eu",
+      "name": "Poireau UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 364,
+    "fields": {
+      "id_ecobalyse": "leek-non-eu",
+      "name": "Poireau Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 365,
+    "fields": {
+      "id_ecobalyse": "bean-non-eu",
+      "name": "Pois Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 366,
+    "fields": {
+      "id_ecobalyse": "bean-eu",
+      "name": "Pois UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 367,
+    "fields": {
+      "id_ecobalyse": "bean-fr",
+      "name": "Pois FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 368,
+    "fields": {
+      "id_ecobalyse": "chickpea-non-eu",
+      "name": "Pois chiche Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 369,
+    "fields": {
+      "id_ecobalyse": "bellpepper-unheated-greenhouse-fr",
+      "name": "Poivron sous serre non chauffée FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 370,
+    "fields": {
+      "id_ecobalyse": "bellpepper-unheated-greenhouse-eu",
+      "name": "Poivron sous serre non chauffée UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 371,
+    "fields": {
+      "id_ecobalyse": "bellpepper-unheated-greenhouse-non-eu",
+      "name": "Poivron sous serre non chauffée Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 372,
+    "fields": {
+      "id_ecobalyse": "apple-non-eu",
+      "name": "Pomme Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 373,
+    "fields": {
+      "id_ecobalyse": "potato-table-eu",
+      "name": "Pomme de terre de table UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 374,
+    "fields": {
+      "id_ecobalyse": "potato-table-non-eu",
+      "name": "Pomme de terre de table Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 375,
+    "fields": {
+      "id_ecobalyse": "chicken-breast-eu",
+      "name": "Blanc de poulet cru UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 376,
+    "fields": {
+      "id_ecobalyse": "tomato-paste-fr",
+      "name": "Purée de tomates FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 377,
+    "fields": {
+      "id_ecobalyse": "radish-fr",
+      "name": "Radis FR Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 378,
+    "fields": {
+      "id_ecobalyse": "radish-eu",
+      "name": "Radis UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 379,
+    "fields": {
+      "id_ecobalyse": "rice-basmati-eu",
+      "name": "Riz basmati UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 380,
+    "fields": {
+      "id_ecobalyse": "durum-wheat-semolina-non-eu",
+      "name": "Semoule de blé dur Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 381,
+    "fields": {
+      "id_ecobalyse": "durum-wheat-semolina-eu",
+      "name": "Semoule de blé dur UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 382,
+    "fields": {
+      "id_ecobalyse": "plum-eu",
+      "name": "Prune UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 383,
+    "fields": {
+      "id_ecobalyse": "plum-non-eu",
+      "name": "Prune Hors UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 384,
+    "fields": {
+      "id_ecobalyse": "soft-wheat-eu",
+      "name": "Blé tendre UE Conv.",
+      "description": null
+    }
+  },
+  {
+    "model": "data.ingredient",
+    "pk": 385,
+    "fields": {
+      "id_ecobalyse": "onion-dried",
+      "name": "Oignons déshydratés Hors UE Conv.",
+      "description": null
+    }
+  }
+]
+

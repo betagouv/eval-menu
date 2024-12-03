@@ -14,4 +14,6 @@
 1. `git clone https://github.com/betagouv/eval-menu`
 2. Installer les dépendences
 3. Installer les packages python : `uv sync`
-4. Démarrer `uv run evalmenu/manage.py runserver`
+4. Initialiser la base : `uv run evalmenu/manage.py migrate`
+5. Charger les données pas défaut : `uv run evalmenu/manage.py loaddata ingredients.json`
+6. Démarrer `uv run evalmenu/manage.py runserver`
