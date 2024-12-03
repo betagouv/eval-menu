@@ -20,6 +20,7 @@ def ingredients_changed(sender, instance, **kwargs):
         print(f"{recette_ingredient.recette} - {recette_ingredient.ingredient}")
         name = (
             recette_ingredient.ingredient.name.replace(" FR ou UE ou Hors UE Bio", "")
+            .replace(" Hors UE Conv.", "")
             .replace(" UE Conv.", "")
             .replace(" FR Conv.", "")
             .replace("Colin", "Poisson colin")
