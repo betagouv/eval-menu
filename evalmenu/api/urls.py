@@ -1,4 +1,5 @@
 from django.urls import path
+
 from api.view.recette import RecetteViewSet
 from rest_framework.routers import DefaultRouter
 app_name = 'api'
