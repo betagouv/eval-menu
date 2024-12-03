@@ -9,7 +9,7 @@ from data.models.recette import Recette
 from api.serializers.recette import RecetteSerializer
 from rest_framework.permissions import AllowAny
 
-class RecetteViewSet(viewsets.ViewSet):
+class RecetteView(ListAPIView):
     """
     API endpoint that allows recette to be viewed.
     """
@@ -18,18 +18,11 @@ class RecetteViewSet(viewsets.ViewSet):
     permission_classes = [AllowAny]  # Allow all requests  
 
     def list(self, request, *args, **kwargs):
-        queryset = self.queryset  # Fetch all objects
+        queryset = self.get_queryset()  # Fetch all objects
         serializer = self.serializer_class(queryset, many=True)
         menu_encapsulation = {
             "name" : "Menu de la Semaine",
             "recipes": serializer.data
         }
         return Response(menu_encapsulation)
-
-    def create(self, request, *args, **kwargs):
-        serializer = self.serializer_class(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
