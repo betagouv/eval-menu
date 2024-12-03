@@ -4,9 +4,9 @@ from data.models.ingredient import Ingredient
 
 class Recette(models.Model):
     class Nutriscore(models.TextChoices):
-        A = ("A",)
-        B = ("B",)
-        C = ("C",)
+        A = "A"
+        B = "B"
+        C = "C"
         D = "D"
         E = "E"
 
