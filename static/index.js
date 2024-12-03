@@ -2,7 +2,7 @@
 
 
 window.onload = async () => {
-    let imgBaseUrl = './img/';//FIXME
+    let imgBaseUrl = 'static/img/';//FIXME
 
     let showDialog = false;
 
